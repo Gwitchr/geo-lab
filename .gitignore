@@ -1,0 +1,16 @@
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv*/
+*.egg-info/
+
+# sqlite runtime artifacts (data/db.sqlite itself is committed by design)
+*.sqlite-journal
+
+# OS cruft
+.DS_Store
