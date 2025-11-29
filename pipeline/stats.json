@@ -1,0 +1,2296 @@
+{
+  "generated_at": "2026-07-10T18:40:17.715257+00:00",
+  "total_listings": 97508,
+  "by_colonia": [
+    {
+      "colonia": "Real de Escobedo",
+      "municipio": "General Escobedo",
+      "count": 715,
+      "median_price_per_m2": 10687.5
+    },
+    {
+      "colonia": "San Rafael",
+      "municipio": "General Escobedo",
+      "count": 712,
+      "median_price_per_m2": 11010.87
+    },
+    {
+      "colonia": "Hacienda Escobedo",
+      "municipio": "General Escobedo",
+      "count": 711,
+      "median_price_per_m2": 10903.33
+    },
+    {
+      "colonia": "Praderas de Escobedo",
+      "municipio": "General Escobedo",
+      "count": 710,
+      "median_price_per_m2": 10826.14
+    },
+    {
+      "colonia": "La Estación",
+      "municipio": "Iztapalapa",
+      "count": 648,
+      "median_price_per_m2": 18488.46
+    },
+    {
+      "colonia": "Santa Barbara I",
+      "municipio": "Iztapalapa",
+      "count": 638,
+      "median_price_per_m2": 18345.75
+    },
+    {
+      "colonia": "Desarrollo Urbano Quetzalcoatl Iii",
+      "municipio": "Iztapalapa",
+      "count": 637,
+      "median_price_per_m2": 18550.85
+    },
+    {
+      "colonia": "Lomas Estrella Iii",
+      "municipio": "Iztapalapa",
+      "count": 636,
+      "median_price_per_m2": 18872.28
+    },
+    {
+      "colonia": "Francisco Villa",
+      "municipio": "Iztapalapa",
+      "count": 617,
+      "median_price_per_m2": 18434.43
+    },
+    {
+      "colonia": "San Lorenzo Tezonco",
+      "municipio": "Iztapalapa",
+      "count": 615,
+      "median_price_per_m2": 18424.34
+    },
+    {
+      "colonia": "12 de Diciembre",
+      "municipio": "Iztapalapa",
+      "count": 613,
+      "median_price_per_m2": 18468.55
+    },
+    {
+      "colonia": "Rinconada el Molino",
+      "municipio": "Iztapalapa",
+      "count": 609,
+      "median_price_per_m2": 18964.91
+    },
+    {
+      "colonia": "El Rodeo",
+      "municipio": "Iztapalapa",
+      "count": 607,
+      "median_price_per_m2": 17860.54
+    },
+    {
+      "colonia": "Sinatel",
+      "municipio": "Iztapalapa",
+      "count": 607,
+      "median_price_per_m2": 18345.74
+    },
+    {
+      "colonia": "Ignacio Zaragoza",
+      "municipio": "Iztapalapa",
+      "count": 601,
+      "median_price_per_m2": 18561.54
+    },
+    {
+      "colonia": "Bellavista",
+      "municipio": "Iztapalapa",
+      "count": 594,
+      "median_price_per_m2": 18535.12
+    },
+    {
+      "colonia": "Plenitud",
+      "municipio": "Iztapalapa",
+      "count": 590,
+      "median_price_per_m2": 18621.54
+    },
+    {
+      "colonia": "Valle de San Lorenzo I",
+      "municipio": "Iztapalapa",
+      "count": 586,
+      "median_price_per_m2": 18587.06
+    },
+    {
+      "colonia": "Chinampac de Juárez Ii",
+      "municipio": "Iztapalapa",
+      "count": 577,
+      "median_price_per_m2": 18898.99
+    },
+    {
+      "colonia": "San Pablo",
+      "municipio": "Apodaca",
+      "count": 573,
+      "median_price_per_m2": 11740.1
+    },
+    {
+      "colonia": "Huinalá",
+      "municipio": "Apodaca",
+      "count": 566,
+      "median_price_per_m2": 11937.39
+    },
+    {
+      "colonia": "Santa Rosa",
+      "municipio": "Apodaca",
+      "count": 560,
+      "median_price_per_m2": 11840.44
+    },
+    {
+      "colonia": "Minas Polvorilla",
+      "municipio": "Iztapalapa",
+      "count": 558,
+      "median_price_per_m2": 18592.02
+    },
+    {
+      "colonia": "Concordia",
+      "municipio": "Apodaca",
+      "count": 552,
+      "median_price_per_m2": 11875.8
+    },
+    {
+      "colonia": "Villas de San José",
+      "municipio": "Apodaca",
+      "count": 550,
+      "median_price_per_m2": 11993.98
+    },
+    {
+      "colonia": "Puerta del Norte",
+      "municipio": "Apodaca",
+      "count": 549,
+      "median_price_per_m2": 12073.77
+    },
+    {
+      "colonia": "Hacienda las Fuentes",
+      "municipio": "Guadalupe",
+      "count": 535,
+      "median_price_per_m2": 12663.79
+    },
+    {
+      "colonia": "Real de Palmas",
+      "municipio": "Guadalupe",
+      "count": 529,
+      "median_price_per_m2": 13019.23
+    },
+    {
+      "colonia": "San Agustín",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 525,
+      "median_price_per_m2": 12777.78
+    },
+    {
+      "colonia": "Nueva Castilla",
+      "municipio": "Guadalupe",
+      "count": 522,
+      "median_price_per_m2": 12919.61
+    },
+    {
+      "colonia": "El Palomar",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 514,
+      "median_price_per_m2": 12686.47
+    },
+    {
+      "colonia": "El Batán",
+      "municipio": "Zapopan",
+      "count": 510,
+      "median_price_per_m2": 25827.8
+    },
+    {
+      "colonia": "Framboyanes",
+      "municipio": "Guadalupe",
+      "count": 507,
+      "median_price_per_m2": 12830.77
+    },
+    {
+      "colonia": "Valle Verde",
+      "municipio": "Guadalupe",
+      "count": 502,
+      "median_price_per_m2": 13021.69
+    },
+    {
+      "colonia": "Real del Valle",
+      "municipio": "Zapopan",
+      "count": 501,
+      "median_price_per_m2": 25547.62
+    },
+    {
+      "colonia": "Balcones de Alcalá",
+      "municipio": "Guadalupe",
+      "count": 492,
+      "median_price_per_m2": 12696.02
+    },
+    {
+      "colonia": "Santa Fe",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 492,
+      "median_price_per_m2": 12568.86
+    },
+    {
+      "colonia": "Ciudad Granja",
+      "municipio": "Zapopan",
+      "count": 488,
+      "median_price_per_m2": 25335.16
+    },
+    {
+      "colonia": "Los Gavilanes",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 486,
+      "median_price_per_m2": 12577.13
+    },
+    {
+      "colonia": "Puerta de Hierro",
+      "municipio": "Zapopan",
+      "count": 485,
+      "median_price_per_m2": 25754.0
+    },
+    {
+      "colonia": "Tesistán",
+      "municipio": "Zapopan",
+      "count": 483,
+      "median_price_per_m2": 25944.44
+    },
+    {
+      "colonia": "Colinas de San Javier",
+      "municipio": "Zapopan",
+      "count": 482,
+      "median_price_per_m2": 25877.31
+    },
+    {
+      "colonia": "Valle Real",
+      "municipio": "Zapopan",
+      "count": 482,
+      "median_price_per_m2": 25771.65
+    },
+    {
+      "colonia": "Chulavista",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 479,
+      "median_price_per_m2": 12708.33
+    },
+    {
+      "colonia": "Hacienda Santa Fe",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 478,
+      "median_price_per_m2": 13203.59
+    },
+    {
+      "colonia": "Lomas de Zapopan",
+      "municipio": "Zapopan",
+      "count": 477,
+      "median_price_per_m2": 25347.62
+    },
+    {
+      "colonia": "San Juan de Ocotán",
+      "municipio": "Zapopan",
+      "count": 477,
+      "median_price_per_m2": 25701.15
+    },
+    {
+      "colonia": "La Alameda",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 476,
+      "median_price_per_m2": 12866.69
+    },
+    {
+      "colonia": "Privadas del Sol",
+      "municipio": "Apodaca",
+      "count": 476,
+      "median_price_per_m2": 11954.45
+    },
+    {
+      "colonia": "Seattle",
+      "municipio": "Zapopan",
+      "count": 473,
+      "median_price_per_m2": 25974.36
+    },
+    {
+      "colonia": "Lomas de Tejeda",
+      "municipio": "Tlajomulco de Zúñiga",
+      "count": 471,
+      "median_price_per_m2": 12884.35
+    },
+    {
+      "colonia": "Paseo de las Torres",
+      "municipio": "Guadalupe",
+      "count": 471,
+      "median_price_per_m2": 12746.09
+    },
+    {
+      "colonia": "Miramar",
+      "municipio": "Zapopan",
+      "count": 468,
+      "median_price_per_m2": 25680.77
+    },
+    {
+      "colonia": "Chapalita Oriente",
+      "municipio": "Zapopan",
+      "count": 464,
+      "median_price_per_m2": 26697.15
+    },
+    {
+      "colonia": "La Estancia",
+      "municipio": "Zapopan",
+      "count": 463,
+      "median_price_per_m2": 26105.88
+    },
+    {
+      "colonia": "Arcos de Zapopan",
+      "municipio": "Zapopan",
+      "count": 462,
+      "median_price_per_m2": 25555.63
+    },
+    {
+      "colonia": "Base Aérea",
+      "municipio": "Zapopan",
+      "count": 460,
+      "median_price_per_m2": 25245.72
+    },
+    {
+      "colonia": "Santa Margarita",
+      "municipio": "Zapopan",
+      "count": 458,
+      "median_price_per_m2": 25943.81
+    },
+    {
+      "colonia": "San Jerónimo",
+      "municipio": "Monterrey",
+      "count": 448,
+      "median_price_per_m2": 23613.69
+    },
+    {
+      "colonia": "Paseos del Sol",
+      "municipio": "Zapopan",
+      "count": 443,
+      "median_price_per_m2": 25905.8
+    },
+    {
+      "colonia": "Independencia",
+      "municipio": "Monterrey",
+      "count": 442,
+      "median_price_per_m2": 24077.29
+    },
+    {
+      "colonia": "Obispado",
+      "municipio": "Monterrey",
+      "count": 428,
+      "median_price_per_m2": 22748.29
+    },
+    {
+      "colonia": "Bellavista",
+      "municipio": "Monterrey",
+      "count": 426,
+      "median_price_per_m2": 24042.33
+    },
+    {
+      "colonia": "Chalma de Guadalupe Ii",
+      "municipio": "Gustavo A. Madero",
+      "count": 424,
+      "median_price_per_m2": 28012.35
+    },
+    {
+      "colonia": "La Casilda",
+      "municipio": "Gustavo A. Madero",
+      "count": 424,
+      "median_price_per_m2": 27844.57
+    },
+    {
+      "colonia": "Independencia",
+      "municipio": "Guadalajara",
+      "count": 420,
+      "median_price_per_m2": 21248.1
+    },
+    {
+      "colonia": "Tecnológico",
+      "municipio": "Monterrey",
+      "count": 419,
+      "median_price_per_m2": 24251.55
+    },
+    {
+      "colonia": "Cumbres",
+      "municipio": "Monterrey",
+      "count": 416,
+      "median_price_per_m2": 24000.0
+    },
+    {
+      "colonia": "Estanzuela",
+      "municipio": "Gustavo A. Madero",
+      "count": 416,
+      "median_price_per_m2": 28435.5
+    },
+    {
+      "colonia": "San Jose de la Escalera",
+      "municipio": "Gustavo A. Madero",
+      "count": 416,
+      "median_price_per_m2": 28283.91
+    },
+    {
+      "colonia": "15 de Agosto",
+      "municipio": "Gustavo A. Madero",
+      "count": 412,
+      "median_price_per_m2": 28145.78
+    },
+    {
+      "colonia": "Centro",
+      "municipio": "Monterrey",
+      "count": 411,
+      "median_price_per_m2": 23067.8
+    },
+    {
+      "colonia": "San Juan de Aragon 7 Secc I",
+      "municipio": "Gustavo A. Madero",
+      "count": 410,
+      "median_price_per_m2": 28346.88
+    },
+    {
+      "colonia": "Industrial I",
+      "municipio": "Gustavo A. Madero",
+      "count": 408,
+      "median_price_per_m2": 27281.94
+    },
+    {
+      "colonia": "Vallarta Poniente",
+      "municipio": "Guadalajara",
+      "count": 406,
+      "median_price_per_m2": 20783.5
+    },
+    {
+      "colonia": "El Retiro",
+      "municipio": "Guadalajara",
+      "count": 405,
+      "median_price_per_m2": 21746.62
+    },
+    {
+      "colonia": "Valle de Madero",
+      "municipio": "Gustavo A. Madero",
+      "count": 405,
+      "median_price_per_m2": 28287.88
+    },
+    {
+      "colonia": "Centro Tonalá",
+      "municipio": "Tonalá",
+      "count": 403,
+      "median_price_per_m2": 10670.1
+    },
+    {
+      "colonia": "Chepevera",
+      "municipio": "Monterrey",
+      "count": 403,
+      "median_price_per_m2": 23246.91
+    },
+    {
+      "colonia": "Solidaridad Nacional",
+      "municipio": "Gustavo A. Madero",
+      "count": 403,
+      "median_price_per_m2": 27926.47
+    },
+    {
+      "colonia": "Roma",
+      "municipio": "Monterrey",
+      "count": 402,
+      "median_price_per_m2": 22952.57
+    },
+    {
+      "colonia": "Altavista",
+      "municipio": "Monterrey",
+      "count": 401,
+      "median_price_per_m2": 23137.93
+    },
+    {
+      "colonia": "Nueva Vallejo",
+      "municipio": "Gustavo A. Madero",
+      "count": 400,
+      "median_price_per_m2": 28202.91
+    },
+    {
+      "colonia": "Providencia",
+      "municipio": "Guadalajara",
+      "count": 400,
+      "median_price_per_m2": 22164.61
+    },
+    {
+      "colonia": "Del Obrero",
+      "municipio": "Gustavo A. Madero",
+      "count": 398,
+      "median_price_per_m2": 28474.09
+    },
+    {
+      "colonia": "Anáhuac",
+      "municipio": "Monterrey",
+      "count": 397,
+      "median_price_per_m2": 23792.86
+    },
+    {
+      "colonia": "Jardines del Bosque",
+      "municipio": "Guadalajara",
+      "count": 395,
+      "median_price_per_m2": 22019.8
+    },
+    {
+      "colonia": "Loma Larga",
+      "municipio": "Monterrey",
+      "count": 394,
+      "median_price_per_m2": 23333.5
+    },
+    {
+      "colonia": "Mexicaltzingo",
+      "municipio": "Guadalajara",
+      "count": 392,
+      "median_price_per_m2": 22288.68
+    },
+    {
+      "colonia": "Vista Hermosa",
+      "municipio": "Monterrey",
+      "count": 392,
+      "median_price_per_m2": 23292.43
+    },
+    {
+      "colonia": "Mitras Centro",
+      "municipio": "Monterrey",
+      "count": 391,
+      "median_price_per_m2": 23689.66
+    },
+    {
+      "colonia": "Mitras Norte",
+      "municipio": "Monterrey",
+      "count": 390,
+      "median_price_per_m2": 23673.1
+    },
+    {
+      "colonia": "Providencia Iii",
+      "municipio": "Gustavo A. Madero",
+      "count": 390,
+      "median_price_per_m2": 28601.03
+    },
+    {
+      "colonia": "Benito Juárez",
+      "municipio": "Gustavo A. Madero",
+      "count": 389,
+      "median_price_per_m2": 27707.32
+    },
+    {
+      "colonia": "Contry",
+      "municipio": "Monterrey",
+      "count": 389,
+      "median_price_per_m2": 24239.13
+    },
+    {
+      "colonia": "Luis Donaldo Colosio",
+      "municipio": "Gustavo A. Madero",
+      "count": 389,
+      "median_price_per_m2": 28214.29
+    },
+    {
+      "colonia": "Vallarta San Jorge",
+      "municipio": "Guadalajara",
+      "count": 388,
+      "median_price_per_m2": 21390.69
+    },
+    {
+      "colonia": "Chapultepec Country Club",
+      "municipio": "Guadalajara",
+      "count": 387,
+      "median_price_per_m2": 21835.44
+    },
+    {
+      "colonia": "Americana",
+      "municipio": "Guadalajara",
+      "count": 386,
+      "median_price_per_m2": 21820.33
+    },
+    {
+      "colonia": "Gertrudis Sanchez 1a Sección",
+      "municipio": "Gustavo A. Madero",
+      "count": 384,
+      "median_price_per_m2": 28227.18
+    },
+    {
+      "colonia": "Analco",
+      "municipio": "Guadalajara",
+      "count": 380,
+      "median_price_per_m2": 21928.66
+    },
+    {
+      "colonia": "Talleres Universidad",
+      "municipio": "San Nicolás de los Garza",
+      "count": 378,
+      "median_price_per_m2": 13777.25
+    },
+    {
+      "colonia": "Coyula",
+      "municipio": "Tonalá",
+      "count": 376,
+      "median_price_per_m2": 10772.16
+    },
+    {
+      "colonia": "Centro",
+      "municipio": "Guadalajara",
+      "count": 374,
+      "median_price_per_m2": 22326.31
+    },
+    {
+      "colonia": "Loma Dorada",
+      "municipio": "Tonalá",
+      "count": 374,
+      "median_price_per_m2": 10853.89
+    },
+    {
+      "colonia": "Santa Teresita",
+      "municipio": "Guadalajara",
+      "count": 374,
+      "median_price_per_m2": 21658.37
+    },
+    {
+      "colonia": "Zalatitán",
+      "municipio": "Tonalá",
+      "count": 374,
+      "median_price_per_m2": 10975.5
+    },
+    {
+      "colonia": "Lafayette",
+      "municipio": "Guadalajara",
+      "count": 373,
+      "median_price_per_m2": 22061.22
+    },
+    {
+      "colonia": "Mezquitán Country",
+      "municipio": "Guadalajara",
+      "count": 371,
+      "median_price_per_m2": 21979.73
+    },
+    {
+      "colonia": "Del Norte",
+      "municipio": "Monterrey",
+      "count": 367,
+      "median_price_per_m2": 23827.38
+    },
+    {
+      "colonia": "Santa Paula",
+      "municipio": "Tonalá",
+      "count": 367,
+      "median_price_per_m2": 10500.0
+    },
+    {
+      "colonia": "Oblatos",
+      "municipio": "Guadalajara",
+      "count": 366,
+      "median_price_per_m2": 21414.94
+    },
+    {
+      "colonia": "Anáhuac",
+      "municipio": "San Nicolás de los Garza",
+      "count": 364,
+      "median_price_per_m2": 13773.68
+    },
+    {
+      "colonia": "La Pastora",
+      "municipio": "Gustavo A. Madero",
+      "count": 360,
+      "median_price_per_m2": 28353.46
+    },
+    {
+      "colonia": "Ladrón de Guevara",
+      "municipio": "Guadalajara",
+      "count": 359,
+      "median_price_per_m2": 21395.83
+    },
+    {
+      "colonia": "Las Puentes",
+      "municipio": "San Nicolás de los Garza",
+      "count": 358,
+      "median_price_per_m2": 13620.99
+    },
+    {
+      "colonia": "Puente Grande",
+      "municipio": "Tonalá",
+      "count": 356,
+      "median_price_per_m2": 10894.1
+    },
+    {
+      "colonia": "Jalisco",
+      "municipio": "Tonalá",
+      "count": 355,
+      "median_price_per_m2": 10869.23
+    },
+    {
+      "colonia": "Moderna",
+      "municipio": "Guadalajara",
+      "count": 355,
+      "median_price_per_m2": 21694.44
+    },
+    {
+      "colonia": "Praderas de San Nicolás",
+      "municipio": "San Nicolás de los Garza",
+      "count": 354,
+      "median_price_per_m2": 13794.79
+    },
+    {
+      "colonia": "Huentitán El Alto",
+      "municipio": "Guadalajara",
+      "count": 349,
+      "median_price_per_m2": 21995.69
+    },
+    {
+      "colonia": "Residencial San Nicolás",
+      "municipio": "San Nicolás de los Garza",
+      "count": 348,
+      "median_price_per_m2": 13664.67
+    },
+    {
+      "colonia": "El Rosario",
+      "municipio": "Tonalá",
+      "count": 343,
+      "median_price_per_m2": 10874.44
+    },
+    {
+      "colonia": "Industrial",
+      "municipio": "San Nicolás de los Garza",
+      "count": 342,
+      "median_price_per_m2": 14156.17
+    },
+    {
+      "colonia": "Las Pilas",
+      "municipio": "Tonalá",
+      "count": 342,
+      "median_price_per_m2": 10923.1
+    },
+    {
+      "colonia": "Arcos Vallarta",
+      "municipio": "Guadalajara",
+      "count": 338,
+      "median_price_per_m2": 22186.49
+    },
+    {
+      "colonia": "Los Presidentes",
+      "municipio": "San Nicolás de los Garza",
+      "count": 336,
+      "median_price_per_m2": 13871.43
+    },
+    {
+      "colonia": "Vallarta Norte",
+      "municipio": "Guadalajara",
+      "count": 334,
+      "median_price_per_m2": 21994.71
+    },
+    {
+      "colonia": "El Refugio",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 309,
+      "median_price_per_m2": 13400.0
+    },
+    {
+      "colonia": "Las Liebres",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 309,
+      "median_price_per_m2": 13694.44
+    },
+    {
+      "colonia": "Centro Tlaquepaque",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 306,
+      "median_price_per_m2": 13883.39
+    },
+    {
+      "colonia": "Portal de Santa Catarina",
+      "municipio": "Santa Catarina",
+      "count": 305,
+      "median_price_per_m2": 14736.36
+    },
+    {
+      "colonia": "Villas de Santa Catarina",
+      "municipio": "Santa Catarina",
+      "count": 305,
+      "median_price_per_m2": 15008.62
+    },
+    {
+      "colonia": "Santiaguito",
+      "municipio": "Santa Catarina",
+      "count": 303,
+      "median_price_per_m2": 14828.36
+    },
+    {
+      "colonia": "Toluquilla",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 300,
+      "median_price_per_m2": 13685.59
+    },
+    {
+      "colonia": "Jardines del Sol",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 298,
+      "median_price_per_m2": 13804.55
+    },
+    {
+      "colonia": "Las Encinas",
+      "municipio": "Santa Catarina",
+      "count": 297,
+      "median_price_per_m2": 14231.58
+    },
+    {
+      "colonia": "Las Juntas",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 295,
+      "median_price_per_m2": 14111.11
+    },
+    {
+      "colonia": "San Miguel",
+      "municipio": "Santa Catarina",
+      "count": 289,
+      "median_price_per_m2": 14917.36
+    },
+    {
+      "colonia": "La Fama",
+      "municipio": "Santa Catarina",
+      "count": 288,
+      "median_price_per_m2": 14810.71
+    },
+    {
+      "colonia": "Lomas del Camichín",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 285,
+      "median_price_per_m2": 13729.17
+    },
+    {
+      "colonia": "El Álamo",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 283,
+      "median_price_per_m2": 13752.17
+    },
+    {
+      "colonia": "Santa Anita",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 279,
+      "median_price_per_m2": 13553.25
+    },
+    {
+      "colonia": "Margarita M de Juárez",
+      "municipio": "Álvaro Obregón",
+      "count": 276,
+      "median_price_per_m2": 31329.49
+    },
+    {
+      "colonia": "San Pedrito",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 274,
+      "median_price_per_m2": 13920.3
+    },
+    {
+      "colonia": "Tecolalco",
+      "municipio": "Álvaro Obregón",
+      "count": 271,
+      "median_price_per_m2": 32075.0
+    },
+    {
+      "colonia": "19 de Mayo",
+      "municipio": "Álvaro Obregón",
+      "count": 269,
+      "median_price_per_m2": 31282.83
+    },
+    {
+      "colonia": "Torres San Antonio",
+      "municipio": "Álvaro Obregón",
+      "count": 269,
+      "median_price_per_m2": 31540.54
+    },
+    {
+      "colonia": "Eduardo Guerra",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 263,
+      "median_price_per_m2": 13847.68
+    },
+    {
+      "colonia": "La Libertad - Ixtlahuaca",
+      "municipio": "Tlalpan",
+      "count": 263,
+      "median_price_per_m2": 26607.14
+    },
+    {
+      "colonia": "La Aurora",
+      "municipio": "San Pedro Tlaquepaque",
+      "count": 260,
+      "median_price_per_m2": 13293.86
+    },
+    {
+      "colonia": "La Loma",
+      "municipio": "Álvaro Obregón",
+      "count": 260,
+      "median_price_per_m2": 31782.93
+    },
+    {
+      "colonia": "Presidentes",
+      "municipio": "Álvaro Obregón",
+      "count": 258,
+      "median_price_per_m2": 31591.06
+    },
+    {
+      "colonia": "Olivar del Conde 1ra Sección Ii",
+      "municipio": "Álvaro Obregón",
+      "count": 255,
+      "median_price_per_m2": 31699.25
+    },
+    {
+      "colonia": "Tezontitla - el Calvario",
+      "municipio": "Tlalpan",
+      "count": 254,
+      "median_price_per_m2": 26328.21
+    },
+    {
+      "colonia": "El Capulin",
+      "municipio": "Álvaro Obregón",
+      "count": 253,
+      "median_price_per_m2": 31375.0
+    },
+    {
+      "colonia": "Galeana",
+      "municipio": "Álvaro Obregón",
+      "count": 253,
+      "median_price_per_m2": 31330.65
+    },
+    {
+      "colonia": "Lomas de Padierna",
+      "municipio": "Tlalpan",
+      "count": 253,
+      "median_price_per_m2": 26547.62
+    },
+    {
+      "colonia": "Conciencia Proletaria",
+      "municipio": "Álvaro Obregón",
+      "count": 249,
+      "median_price_per_m2": 31927.54
+    },
+    {
+      "colonia": "Jalalpa Tepito",
+      "municipio": "Álvaro Obregón",
+      "count": 249,
+      "median_price_per_m2": 31250.0
+    },
+    {
+      "colonia": "Progreso Tlalpan",
+      "municipio": "Tlalpan",
+      "count": 247,
+      "median_price_per_m2": 26284.81
+    },
+    {
+      "colonia": "Verano",
+      "municipio": "Tlalpan",
+      "count": 247,
+      "median_price_per_m2": 26379.63
+    },
+    {
+      "colonia": "Arcos de Centenario",
+      "municipio": "Álvaro Obregón",
+      "count": 244,
+      "median_price_per_m2": 31792.16
+    },
+    {
+      "colonia": "Lomas de Puerta Grande",
+      "municipio": "Álvaro Obregón",
+      "count": 244,
+      "median_price_per_m2": 31697.82
+    },
+    {
+      "colonia": "Liberacion Proletaria",
+      "municipio": "Álvaro Obregón",
+      "count": 243,
+      "median_price_per_m2": 31471.5
+    },
+    {
+      "colonia": "Bella Vista",
+      "municipio": "Álvaro Obregón",
+      "count": 240,
+      "median_price_per_m2": 32082.31
+    },
+    {
+      "colonia": "San Bartolo Ameyalco",
+      "municipio": "Álvaro Obregón",
+      "count": 239,
+      "median_price_per_m2": 31801.47
+    },
+    {
+      "colonia": "Narciso Mendoza-villa Coapa Super Manzana 6",
+      "municipio": "Tlalpan",
+      "count": 238,
+      "median_price_per_m2": 25669.22
+    },
+    {
+      "colonia": "Belisario Dominguez",
+      "municipio": "Tlalpan",
+      "count": 233,
+      "median_price_per_m2": 26468.57
+    },
+    {
+      "colonia": "Miguel Hidalgo",
+      "municipio": "Tlalpan",
+      "count": 231,
+      "median_price_per_m2": 26347.11
+    },
+    {
+      "colonia": "Fuentes del Pedregal",
+      "municipio": "Tlalpan",
+      "count": 230,
+      "median_price_per_m2": 25905.51
+    },
+    {
+      "colonia": "Santo Tomas Ajusco",
+      "municipio": "Tlalpan",
+      "count": 230,
+      "median_price_per_m2": 26429.49
+    },
+    {
+      "colonia": "San Lorenzo Huipulco",
+      "municipio": "Tlalpan",
+      "count": 228,
+      "median_price_per_m2": 25959.34
+    },
+    {
+      "colonia": "Imán",
+      "municipio": "Coyoacán",
+      "count": 225,
+      "median_price_per_m2": 44278.85
+    },
+    {
+      "colonia": "Adolfo Ruiz Cortines I",
+      "municipio": "Coyoacán",
+      "count": 223,
+      "median_price_per_m2": 43339.29
+    },
+    {
+      "colonia": "Nueva Diaz Ordaz",
+      "municipio": "Coyoacán",
+      "count": 223,
+      "median_price_per_m2": 44916.67
+    },
+    {
+      "colonia": "Ejidos de San Pedro Martir I",
+      "municipio": "Tlalpan",
+      "count": 222,
+      "median_price_per_m2": 26368.33
+    },
+    {
+      "colonia": "Coapa-villa Cuemanco",
+      "municipio": "Tlalpan",
+      "count": 221,
+      "median_price_per_m2": 26786.29
+    },
+    {
+      "colonia": "Pedregal de Santa Úrsula Ii",
+      "municipio": "Coyoacán",
+      "count": 220,
+      "median_price_per_m2": 43576.24
+    },
+    {
+      "colonia": "Presidentes Ejidales Segunda Sección",
+      "municipio": "Coyoacán",
+      "count": 219,
+      "median_price_per_m2": 43758.82
+    },
+    {
+      "colonia": "Campestre Coyoacan",
+      "municipio": "Coyoacán",
+      "count": 218,
+      "median_price_per_m2": 44995.31
+    },
+    {
+      "colonia": "Pedregal de Sn Nicolas 2a Secc",
+      "municipio": "Tlalpan",
+      "count": 218,
+      "median_price_per_m2": 26729.49
+    },
+    {
+      "colonia": "Los Girasoles I",
+      "municipio": "Coyoacán",
+      "count": 216,
+      "median_price_per_m2": 46123.99
+    },
+    {
+      "colonia": "Isidro Fabela I",
+      "municipio": "Tlalpan",
+      "count": 213,
+      "median_price_per_m2": 25666.67
+    },
+    {
+      "colonia": "2 de Octubre",
+      "municipio": "Tlalpan",
+      "count": 212,
+      "median_price_per_m2": 27038.79
+    },
+    {
+      "colonia": "La Cantera",
+      "municipio": "Coyoacán",
+      "count": 210,
+      "median_price_per_m2": 43549.8
+    },
+    {
+      "colonia": "Altillo",
+      "municipio": "Coyoacán",
+      "count": 209,
+      "median_price_per_m2": 45584.42
+    },
+    {
+      "colonia": "Morelos Iii",
+      "municipio": "Cuauhtémoc",
+      "count": 209,
+      "median_price_per_m2": 33226.87
+    },
+    {
+      "colonia": "Felipe Pescador",
+      "municipio": "Cuauhtémoc",
+      "count": 207,
+      "median_price_per_m2": 32690.14
+    },
+    {
+      "colonia": "Villa Panamericana 2da. Seccin",
+      "municipio": "Coyoacán",
+      "count": 207,
+      "median_price_per_m2": 44218.75
+    },
+    {
+      "colonia": "Emiliano Zapata",
+      "municipio": "Coyoacán",
+      "count": 201,
+      "median_price_per_m2": 42005.21
+    },
+    {
+      "colonia": "Ciudad Universitaria",
+      "municipio": "Coyoacán",
+      "count": 200,
+      "median_price_per_m2": 42632.8
+    },
+    {
+      "colonia": "Educacion",
+      "municipio": "Coyoacán",
+      "count": 197,
+      "median_price_per_m2": 44532.79
+    },
+    {
+      "colonia": "Ctm Vi Culhuacán",
+      "municipio": "Coyoacán",
+      "count": 196,
+      "median_price_per_m2": 46136.82
+    },
+    {
+      "colonia": "Doctores Iv",
+      "municipio": "Cuauhtémoc",
+      "count": 194,
+      "median_price_per_m2": 33789.52
+    },
+    {
+      "colonia": "Centro Ii",
+      "municipio": "Cuauhtémoc",
+      "count": 191,
+      "median_price_per_m2": 34430.23
+    },
+    {
+      "colonia": "Guerrero Iv",
+      "municipio": "Cuauhtémoc",
+      "count": 190,
+      "median_price_per_m2": 34843.79
+    },
+    {
+      "colonia": "Santa María Insurgentes",
+      "municipio": "Cuauhtémoc",
+      "count": 190,
+      "median_price_per_m2": 33255.94
+    },
+    {
+      "colonia": "Santa Cecilia",
+      "municipio": "Coyoacán",
+      "count": 187,
+      "median_price_per_m2": 44734.13
+    },
+    {
+      "colonia": "Centro Vi",
+      "municipio": "Cuauhtémoc",
+      "count": 186,
+      "median_price_per_m2": 34921.37
+    },
+    {
+      "colonia": "Obrera I",
+      "municipio": "Cuauhtémoc",
+      "count": 186,
+      "median_price_per_m2": 33538.41
+    },
+    {
+      "colonia": "Popotla I",
+      "municipio": "Miguel Hidalgo",
+      "count": 182,
+      "median_price_per_m2": 47719.44
+    },
+    {
+      "colonia": "Paulino Navarro",
+      "municipio": "Cuauhtémoc",
+      "count": 177,
+      "median_price_per_m2": 33472.66
+    },
+    {
+      "colonia": "Pedregal de Sto Domingo Vii",
+      "municipio": "Coyoacán",
+      "count": 177,
+      "median_price_per_m2": 43758.33
+    },
+    {
+      "colonia": "Tabacalera",
+      "municipio": "Cuauhtémoc",
+      "count": 177,
+      "median_price_per_m2": 33916.67
+    },
+    {
+      "colonia": "Algarin",
+      "municipio": "Cuauhtémoc",
+      "count": 175,
+      "median_price_per_m2": 33935.37
+    },
+    {
+      "colonia": "Juárez",
+      "municipio": "Cuauhtémoc",
+      "count": 175,
+      "median_price_per_m2": 33425.0
+    },
+    {
+      "colonia": "San Rafael I",
+      "municipio": "Cuauhtémoc",
+      "count": 172,
+      "median_price_per_m2": 33087.55
+    },
+    {
+      "colonia": "Cuauhtémoc",
+      "municipio": "Cuauhtémoc",
+      "count": 169,
+      "median_price_per_m2": 34750.0
+    },
+    {
+      "colonia": "Américas Unidas-del Lago",
+      "municipio": "Benito Juárez",
+      "count": 168,
+      "median_price_per_m2": 53458.61
+    },
+    {
+      "colonia": "Cuatro Arboles",
+      "municipio": "Venustiano Carranza",
+      "count": 168,
+      "median_price_per_m2": 28935.63
+    },
+    {
+      "colonia": "Jardín Balbuena I",
+      "municipio": "Venustiano Carranza",
+      "count": 168,
+      "median_price_per_m2": 27535.42
+    },
+    {
+      "colonia": "San Fco Xicaltongo",
+      "municipio": "Iztacalco",
+      "count": 168,
+      "median_price_per_m2": 32358.28
+    },
+    {
+      "colonia": "Buenavista I",
+      "municipio": "Cuauhtémoc",
+      "count": 167,
+      "median_price_per_m2": 33745.61
+    },
+    {
+      "colonia": "Moctezuma 1a Sección",
+      "municipio": "Venustiano Carranza",
+      "count": 162,
+      "median_price_per_m2": 26325.23
+    },
+    {
+      "colonia": "Acacias",
+      "municipio": "Benito Juárez",
+      "count": 159,
+      "median_price_per_m2": 55471.07
+    },
+    {
+      "colonia": "Lorenzo Boturini",
+      "municipio": "Venustiano Carranza",
+      "count": 159,
+      "median_price_per_m2": 27372.83
+    },
+    {
+      "colonia": "Bosque Residencial del Sur",
+      "municipio": "Xochimilco",
+      "count": 158,
+      "median_price_per_m2": 13308.68
+    },
+    {
+      "colonia": "Moctezuma 2a Sección Iv",
+      "municipio": "Venustiano Carranza",
+      "count": 158,
+      "median_price_per_m2": 27397.33
+    },
+    {
+      "colonia": "Piedad Narvarte",
+      "municipio": "Benito Juárez",
+      "count": 158,
+      "median_price_per_m2": 55005.2
+    },
+    {
+      "colonia": "Ignacio Manuel Altamirano",
+      "municipio": "Miguel Hidalgo",
+      "count": 157,
+      "median_price_per_m2": 50718.75
+    },
+    {
+      "colonia": "Primero de Mayo",
+      "municipio": "Venustiano Carranza",
+      "count": 154,
+      "median_price_per_m2": 28567.01
+    },
+    {
+      "colonia": "Romero Rubio",
+      "municipio": "Venustiano Carranza",
+      "count": 154,
+      "median_price_per_m2": 28207.05
+    },
+    {
+      "colonia": "San Bartolo el Chico",
+      "municipio": "Xochimilco",
+      "count": 154,
+      "median_price_per_m2": 13062.01
+    },
+    {
+      "colonia": "Narvarte Vi",
+      "municipio": "Benito Juárez",
+      "count": 153,
+      "median_price_per_m2": 54700.0
+    },
+    {
+      "colonia": "Roma Norte Ii",
+      "municipio": "Cuauhtémoc",
+      "count": 153,
+      "median_price_per_m2": 33601.91
+    },
+    {
+      "colonia": "Credito Constructor",
+      "municipio": "Benito Juárez",
+      "count": 152,
+      "median_price_per_m2": 55527.35
+    },
+    {
+      "colonia": "Aquiles Serdan",
+      "municipio": "Venustiano Carranza",
+      "count": 151,
+      "median_price_per_m2": 26581.7
+    },
+    {
+      "colonia": "Juventino Rosas I",
+      "municipio": "Iztacalco",
+      "count": 151,
+      "median_price_per_m2": 32224.81
+    },
+    {
+      "colonia": "Nuevo San Rafael",
+      "municipio": "Azcapotzalco",
+      "count": 151,
+      "median_price_per_m2": 36818.97
+    },
+    {
+      "colonia": "San Pedro Xalpa Ii",
+      "municipio": "Azcapotzalco",
+      "count": 151,
+      "median_price_per_m2": 36643.94
+    },
+    {
+      "colonia": "Santa Cruz",
+      "municipio": "Iztacalco",
+      "count": 151,
+      "median_price_per_m2": 32185.28
+    },
+    {
+      "colonia": "7 de Julio",
+      "municipio": "Venustiano Carranza",
+      "count": 150,
+      "median_price_per_m2": 27702.38
+    },
+    {
+      "colonia": "Aguilera",
+      "municipio": "Azcapotzalco",
+      "count": 150,
+      "median_price_per_m2": 36690.29
+    },
+    {
+      "colonia": "Anáhuac Lago Norte",
+      "municipio": "Miguel Hidalgo",
+      "count": 150,
+      "median_price_per_m2": 50181.07
+    },
+    {
+      "colonia": "Lomas Virreyes",
+      "municipio": "Miguel Hidalgo",
+      "count": 150,
+      "median_price_per_m2": 49040.55
+    },
+    {
+      "colonia": "Nonoalco",
+      "municipio": "Benito Juárez",
+      "count": 150,
+      "median_price_per_m2": 54645.59
+    },
+    {
+      "colonia": "Ignacio Zaragoza I",
+      "municipio": "Venustiano Carranza",
+      "count": 149,
+      "median_price_per_m2": 27019.42
+    },
+    {
+      "colonia": "Paseos del Sur",
+      "municipio": "Xochimilco",
+      "count": 149,
+      "median_price_per_m2": 13214.67
+    },
+    {
+      "colonia": "Santiago Ahuizotla",
+      "municipio": "Azcapotzalco",
+      "count": 149,
+      "median_price_per_m2": 37628.32
+    },
+    {
+      "colonia": "El Carmen",
+      "municipio": "Xochimilco",
+      "count": 148,
+      "median_price_per_m2": 13133.33
+    },
+    {
+      "colonia": "Cuchilla Ramos Millan",
+      "municipio": "Iztacalco",
+      "count": 147,
+      "median_price_per_m2": 31421.43
+    },
+    {
+      "colonia": "Mosco Chinampa",
+      "municipio": "Iztacalco",
+      "count": 147,
+      "median_price_per_m2": 32018.87
+    },
+    {
+      "colonia": "Altos Tepetlica",
+      "municipio": "Xochimilco",
+      "count": 146,
+      "median_price_per_m2": 13622.31
+    },
+    {
+      "colonia": "Narvarte Ii",
+      "municipio": "Benito Juárez",
+      "count": 146,
+      "median_price_per_m2": 54864.32
+    },
+    {
+      "colonia": "Ojo de Agua",
+      "municipio": "Tláhuac",
+      "count": 146,
+      "median_price_per_m2": 21971.58
+    },
+    {
+      "colonia": "Pensil Sur",
+      "municipio": "Miguel Hidalgo",
+      "count": 146,
+      "median_price_per_m2": 48583.68
+    },
+    {
+      "colonia": "Portales Iv",
+      "municipio": "Benito Juárez",
+      "count": 146,
+      "median_price_per_m2": 55823.4
+    },
+    {
+      "colonia": "Pro Hogar Ii",
+      "municipio": "Azcapotzalco",
+      "count": 146,
+      "median_price_per_m2": 35427.42
+    },
+    {
+      "colonia": "Torre Blanca",
+      "municipio": "Miguel Hidalgo",
+      "count": 146,
+      "median_price_per_m2": 48872.93
+    },
+    {
+      "colonia": "Del Valle Iv",
+      "municipio": "Benito Juárez",
+      "count": 145,
+      "median_price_per_m2": 52414.29
+    },
+    {
+      "colonia": "San Juan",
+      "municipio": "Xochimilco",
+      "count": 145,
+      "median_price_per_m2": 13728.48
+    },
+    {
+      "colonia": "San Lorenzo la Cebada I",
+      "municipio": "Xochimilco",
+      "count": 145,
+      "median_price_per_m2": 13289.86
+    },
+    {
+      "colonia": "Xoco",
+      "municipio": "Benito Juárez",
+      "count": 144,
+      "median_price_per_m2": 53044.23
+    },
+    {
+      "colonia": "Coltongo",
+      "municipio": "Azcapotzalco",
+      "count": 143,
+      "median_price_per_m2": 36641.45
+    },
+    {
+      "colonia": "La Preciosa",
+      "municipio": "Azcapotzalco",
+      "count": 143,
+      "median_price_per_m2": 34975.41
+    },
+    {
+      "colonia": "Molino del Rey",
+      "municipio": "Miguel Hidalgo",
+      "count": 143,
+      "median_price_per_m2": 50393.94
+    },
+    {
+      "colonia": "Pensador Mexicano I",
+      "municipio": "Venustiano Carranza",
+      "count": 143,
+      "median_price_per_m2": 26760.87
+    },
+    {
+      "colonia": "San Francisco Tlalnepantla",
+      "municipio": "Xochimilco",
+      "count": 143,
+      "median_price_per_m2": 13443.66
+    },
+    {
+      "colonia": "Sta Cruz Atoyac",
+      "municipio": "Benito Juárez",
+      "count": 143,
+      "median_price_per_m2": 53180.56
+    },
+    {
+      "colonia": "Del Recreo",
+      "municipio": "Azcapotzalco",
+      "count": 142,
+      "median_price_per_m2": 36764.69
+    },
+    {
+      "colonia": "Hogares Ferrocarrileros",
+      "municipio": "Azcapotzalco",
+      "count": 142,
+      "median_price_per_m2": 35229.03
+    },
+    {
+      "colonia": "Infonavit Iztacalco I",
+      "municipio": "Iztacalco",
+      "count": 142,
+      "median_price_per_m2": 32108.39
+    },
+    {
+      "colonia": "La Santisima",
+      "municipio": "Xochimilco",
+      "count": 142,
+      "median_price_per_m2": 13749.46
+    },
+    {
+      "colonia": "Plenitud",
+      "municipio": "Azcapotzalco",
+      "count": 142,
+      "median_price_per_m2": 36365.37
+    },
+    {
+      "colonia": "San Mateo Xalpa",
+      "municipio": "Xochimilco",
+      "count": 142,
+      "median_price_per_m2": 13575.16
+    },
+    {
+      "colonia": "10 de Mayo",
+      "municipio": "Venustiano Carranza",
+      "count": 141,
+      "median_price_per_m2": 28393.75
+    },
+    {
+      "colonia": "El Rosario C",
+      "municipio": "Azcapotzalco",
+      "count": 141,
+      "median_price_per_m2": 35226.03
+    },
+    {
+      "colonia": "Bahia",
+      "municipio": "Venustiano Carranza",
+      "count": 140,
+      "median_price_per_m2": 28330.72
+    },
+    {
+      "colonia": "Santa Cecilia",
+      "municipio": "Tláhuac",
+      "count": 140,
+      "median_price_per_m2": 22081.79
+    },
+    {
+      "colonia": "Cuitlahuac",
+      "municipio": "Tláhuac",
+      "count": 139,
+      "median_price_per_m2": 21360.95
+    },
+    {
+      "colonia": "Los Morales",
+      "municipio": "Miguel Hidalgo",
+      "count": 139,
+      "median_price_per_m2": 50141.1
+    },
+    {
+      "colonia": "Santiago Tepalcatlalpan",
+      "municipio": "Xochimilco",
+      "count": 139,
+      "median_price_per_m2": 13553.57
+    },
+    {
+      "colonia": "Agricola Oriental Vii",
+      "municipio": "Iztacalco",
+      "count": 138,
+      "median_price_per_m2": 31811.86
+    },
+    {
+      "colonia": "Emiliano Zapata",
+      "municipio": "Venustiano Carranza",
+      "count": 138,
+      "median_price_per_m2": 27745.92
+    },
+    {
+      "colonia": "Gabriel Ramos Millan",
+      "municipio": "Iztacalco",
+      "count": 138,
+      "median_price_per_m2": 31125.87
+    },
+    {
+      "colonia": "Jardines del Sur",
+      "municipio": "Xochimilco",
+      "count": 138,
+      "median_price_per_m2": 12901.21
+    },
+    {
+      "colonia": "Ramos Millan Bramadero Ii",
+      "municipio": "Iztacalco",
+      "count": 138,
+      "median_price_per_m2": 31997.42
+    },
+    {
+      "colonia": "Tlacotal Ramos Millan",
+      "municipio": "Iztacalco",
+      "count": 138,
+      "median_price_per_m2": 30536.02
+    },
+    {
+      "colonia": "Agricola Oriental Iv",
+      "municipio": "Iztacalco",
+      "count": 137,
+      "median_price_per_m2": 30815.07
+    },
+    {
+      "colonia": "San Jose Insurgentes",
+      "municipio": "Benito Juárez",
+      "count": 137,
+      "median_price_per_m2": 54042.17
+    },
+    {
+      "colonia": "Tierra Nueva",
+      "municipio": "Xochimilco",
+      "count": 137,
+      "median_price_per_m2": 13016.48
+    },
+    {
+      "colonia": "10 de Abril",
+      "municipio": "Miguel Hidalgo",
+      "count": 136,
+      "median_price_per_m2": 47921.63
+    },
+    {
+      "colonia": "Chapultepec Polanco",
+      "municipio": "Miguel Hidalgo",
+      "count": 136,
+      "median_price_per_m2": 49918.19
+    },
+    {
+      "colonia": "El Arenal 3a Sección",
+      "municipio": "Venustiano Carranza",
+      "count": 136,
+      "median_price_per_m2": 27872.7
+    },
+    {
+      "colonia": "Insurgentes Mixcoac",
+      "municipio": "Benito Juárez",
+      "count": 136,
+      "median_price_per_m2": 53788.16
+    },
+    {
+      "colonia": "San Bartolo Cahualtongo",
+      "municipio": "Azcapotzalco",
+      "count": 136,
+      "median_price_per_m2": 37325.5
+    },
+    {
+      "colonia": "San Martin Xochinahuac",
+      "municipio": "Azcapotzalco",
+      "count": 136,
+      "median_price_per_m2": 35371.05
+    },
+    {
+      "colonia": "La Estación",
+      "municipio": "Tláhuac",
+      "count": 134,
+      "median_price_per_m2": 22051.57
+    },
+    {
+      "colonia": "Manuel Rivera Anaya Croc I",
+      "municipio": "Azcapotzalco",
+      "count": 134,
+      "median_price_per_m2": 36055.52
+    },
+    {
+      "colonia": "Nueva Argentina",
+      "municipio": "Miguel Hidalgo",
+      "count": 134,
+      "median_price_per_m2": 50028.07
+    },
+    {
+      "colonia": "Pantitlán Iii",
+      "municipio": "Iztacalco",
+      "count": 134,
+      "median_price_per_m2": 30720.81
+    },
+    {
+      "colonia": "Tlatilco",
+      "municipio": "Azcapotzalco",
+      "count": 134,
+      "median_price_per_m2": 34548.44
+    },
+    {
+      "colonia": "Picos Iztacalco 1-a",
+      "municipio": "Iztacalco",
+      "count": 133,
+      "median_price_per_m2": 31357.69
+    },
+    {
+      "colonia": "3 de Mayo",
+      "municipio": "Tláhuac",
+      "count": 132,
+      "median_price_per_m2": 21794.77
+    },
+    {
+      "colonia": "La Concepcion Tlacoapa",
+      "municipio": "Xochimilco",
+      "count": 131,
+      "median_price_per_m2": 13524.19
+    },
+    {
+      "colonia": "San Juan Ixtayopan",
+      "municipio": "Tláhuac",
+      "count": 131,
+      "median_price_per_m2": 22004.1
+    },
+    {
+      "colonia": "Santo Tomas",
+      "municipio": "Miguel Hidalgo",
+      "count": 131,
+      "median_price_per_m2": 49750.0
+    },
+    {
+      "colonia": "Selene 2da Secc",
+      "municipio": "Tláhuac",
+      "count": 131,
+      "median_price_per_m2": 21208.79
+    },
+    {
+      "colonia": "Argentina Antigua",
+      "municipio": "Miguel Hidalgo",
+      "count": 130,
+      "median_price_per_m2": 50108.27
+    },
+    {
+      "colonia": "La Mesa",
+      "municipio": "Tláhuac",
+      "count": 130,
+      "median_price_per_m2": 22422.79
+    },
+    {
+      "colonia": "Escandon I",
+      "municipio": "Miguel Hidalgo",
+      "count": 129,
+      "median_price_per_m2": 50576.92
+    },
+    {
+      "colonia": "Miravalle",
+      "municipio": "Benito Juárez",
+      "count": 129,
+      "median_price_per_m2": 52010.1
+    },
+    {
+      "colonia": "Santa Cruz Chavarrieta",
+      "municipio": "Xochimilco",
+      "count": 129,
+      "median_price_per_m2": 13047.3
+    },
+    {
+      "colonia": "Agricola Oriental I",
+      "municipio": "Iztacalco",
+      "count": 128,
+      "median_price_per_m2": 31721.7
+    },
+    {
+      "colonia": "Campamento 2 de Octubre Ii",
+      "municipio": "Iztacalco",
+      "count": 128,
+      "median_price_per_m2": 33267.55
+    },
+    {
+      "colonia": "Ermita",
+      "municipio": "Benito Juárez",
+      "count": 128,
+      "median_price_per_m2": 52890.05
+    },
+    {
+      "colonia": "Los Cerrillos Iii",
+      "municipio": "Xochimilco",
+      "count": 128,
+      "median_price_per_m2": 13464.07
+    },
+    {
+      "colonia": "Santa Catarina",
+      "municipio": "Azcapotzalco",
+      "count": 128,
+      "median_price_per_m2": 36836.08
+    },
+    {
+      "colonia": "Valentin Gómez Farias",
+      "municipio": "Venustiano Carranza",
+      "count": 128,
+      "median_price_per_m2": 27768.02
+    },
+    {
+      "colonia": "Letran Valle",
+      "municipio": "Benito Juárez",
+      "count": 125,
+      "median_price_per_m2": 53816.67
+    },
+    {
+      "colonia": "Quiahuatla",
+      "municipio": "Tláhuac",
+      "count": 124,
+      "median_price_per_m2": 23020.31
+    },
+    {
+      "colonia": "América",
+      "municipio": "Miguel Hidalgo",
+      "count": 123,
+      "median_price_per_m2": 45537.74
+    },
+    {
+      "colonia": "Los Olivos",
+      "municipio": "Tláhuac",
+      "count": 123,
+      "median_price_per_m2": 20949.22
+    },
+    {
+      "colonia": "San Nicolas Tetelco",
+      "municipio": "Tláhuac",
+      "count": 122,
+      "median_price_per_m2": 22382.98
+    },
+    {
+      "colonia": "Unidades Habitacionales de Santa Ana Poniente I",
+      "municipio": "Tláhuac",
+      "count": 120,
+      "median_price_per_m2": 21832.05
+    },
+    {
+      "colonia": "La Cruz",
+      "municipio": "Iztacalco",
+      "count": 119,
+      "median_price_per_m2": 30982.76
+    },
+    {
+      "colonia": "El Rosario",
+      "municipio": "Tláhuac",
+      "count": 114,
+      "median_price_per_m2": 21915.66
+    },
+    {
+      "colonia": "Emiliano Zapata 2a",
+      "municipio": "Tláhuac",
+      "count": 114,
+      "median_price_per_m2": 22156.14
+    },
+    {
+      "colonia": "Jardines del Llano-u.h. Villa Tlatempa",
+      "municipio": "Tláhuac",
+      "count": 113,
+      "median_price_per_m2": 21463.54
+    },
+    {
+      "colonia": "Tepantitlamilco",
+      "municipio": "Tláhuac",
+      "count": 112,
+      "median_price_per_m2": 22362.78
+    },
+    {
+      "colonia": "Fuentes del Valle",
+      "municipio": "San Pedro Garza García",
+      "count": 111,
+      "median_price_per_m2": 48922.41
+    },
+    {
+      "colonia": "Valle Oriente",
+      "municipio": "San Pedro Garza García",
+      "count": 109,
+      "median_price_per_m2": 46190.68
+    },
+    {
+      "colonia": "Valle del Campestre",
+      "municipio": "San Pedro Garza García",
+      "count": 101,
+      "median_price_per_m2": 48361.61
+    },
+    {
+      "colonia": "Carrizalejo",
+      "municipio": "San Pedro Garza García",
+      "count": 99,
+      "median_price_per_m2": 46593.96
+    },
+    {
+      "colonia": "Del Valle",
+      "municipio": "San Pedro Garza García",
+      "count": 98,
+      "median_price_per_m2": 47027.12
+    },
+    {
+      "colonia": "San Diego Ocoyoacac",
+      "municipio": "Miguel Hidalgo",
+      "count": 98,
+      "median_price_per_m2": 51345.99
+    },
+    {
+      "colonia": "1o de Mayo",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 97,
+      "median_price_per_m2": 26246.7
+    },
+    {
+      "colonia": "Chipinque",
+      "municipio": "San Pedro Garza García",
+      "count": 96,
+      "median_price_per_m2": 48545.05
+    },
+    {
+      "colonia": "Ixtlahualtongo",
+      "municipio": "La Magdalena Contreras",
+      "count": 96,
+      "median_price_per_m2": 27918.15
+    },
+    {
+      "colonia": "Lomas del Valle",
+      "municipio": "San Pedro Garza García",
+      "count": 93,
+      "median_price_per_m2": 48548.67
+    },
+    {
+      "colonia": "El Rosal",
+      "municipio": "La Magdalena Contreras",
+      "count": 89,
+      "median_price_per_m2": 28391.89
+    },
+    {
+      "colonia": "San Agustín",
+      "municipio": "San Pedro Garza García",
+      "count": 88,
+      "median_price_per_m2": 48253.24
+    },
+    {
+      "colonia": "Plazuela del Pedregal",
+      "municipio": "La Magdalena Contreras",
+      "count": 81,
+      "median_price_per_m2": 28116.28
+    },
+    {
+      "colonia": "El Molinito",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 80,
+      "median_price_per_m2": 24197.58
+    },
+    {
+      "colonia": "La Malinche",
+      "municipio": "La Magdalena Contreras",
+      "count": 79,
+      "median_price_per_m2": 28615.38
+    },
+    {
+      "colonia": "Memetla",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 79,
+      "median_price_per_m2": 23967.74
+    },
+    {
+      "colonia": "Pueblo Nuevo Bajo",
+      "municipio": "La Magdalena Contreras",
+      "count": 79,
+      "median_price_per_m2": 30213.86
+    },
+    {
+      "colonia": "Batan Viejo",
+      "municipio": "La Magdalena Contreras",
+      "count": 78,
+      "median_price_per_m2": 27953.48
+    },
+    {
+      "colonia": "Las Huertas",
+      "municipio": "La Magdalena Contreras",
+      "count": 78,
+      "median_price_per_m2": 28817.43
+    },
+    {
+      "colonia": "Lomas de San Bernabe",
+      "municipio": "La Magdalena Contreras",
+      "count": 78,
+      "median_price_per_m2": 29437.96
+    },
+    {
+      "colonia": "San Nicolas Totolapan",
+      "municipio": "La Magdalena Contreras",
+      "count": 78,
+      "median_price_per_m2": 30308.08
+    },
+    {
+      "colonia": "Independencia Batan Sur",
+      "municipio": "La Magdalena Contreras",
+      "count": 77,
+      "median_price_per_m2": 28308.82
+    },
+    {
+      "colonia": "La Cruz",
+      "municipio": "La Magdalena Contreras",
+      "count": 77,
+      "median_price_per_m2": 28180.18
+    },
+    {
+      "colonia": "San Bernabe Ocotepec",
+      "municipio": "La Magdalena Contreras",
+      "count": 76,
+      "median_price_per_m2": 29689.23
+    },
+    {
+      "colonia": "Huayatla",
+      "municipio": "La Magdalena Contreras",
+      "count": 74,
+      "median_price_per_m2": 27964.05
+    },
+    {
+      "colonia": "Adolfo López Mateos",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 73,
+      "median_price_per_m2": 25885.71
+    },
+    {
+      "colonia": "El Yaqui",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 73,
+      "median_price_per_m2": 25197.37
+    },
+    {
+      "colonia": "Jesus del Monte",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 73,
+      "median_price_per_m2": 24056.34
+    },
+    {
+      "colonia": "San Jose de los Cedros Ii",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 73,
+      "median_price_per_m2": 24500.0
+    },
+    {
+      "colonia": "San Juan Tepenahuac",
+      "municipio": "Milpa Alta",
+      "count": 73,
+      "median_price_per_m2": 8567.57
+    },
+    {
+      "colonia": "Cola de Pato",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 71,
+      "median_price_per_m2": 24396.43
+    },
+    {
+      "colonia": "La Venta",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 71,
+      "median_price_per_m2": 26637.5
+    },
+    {
+      "colonia": "Tierra Colorada",
+      "municipio": "La Magdalena Contreras",
+      "count": 71,
+      "median_price_per_m2": 30650.0
+    },
+    {
+      "colonia": "El Ermitao",
+      "municipio": "La Magdalena Contreras",
+      "count": 70,
+      "median_price_per_m2": 29553.06
+    },
+    {
+      "colonia": "Cruz Blanca",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 68,
+      "median_price_per_m2": 25153.75
+    },
+    {
+      "colonia": "San Pablo Chimalpa",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 66,
+      "median_price_per_m2": 24537.95
+    },
+    {
+      "colonia": "Portal del Sol",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 65,
+      "median_price_per_m2": 24638.46
+    },
+    {
+      "colonia": "San Lorenzo Tlacoyucan",
+      "municipio": "Milpa Alta",
+      "count": 65,
+      "median_price_per_m2": 8793.1
+    },
+    {
+      "colonia": "San Pedro Atocpan",
+      "municipio": "Milpa Alta",
+      "count": 65,
+      "median_price_per_m2": 8423.78
+    },
+    {
+      "colonia": "Texcalco",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 65,
+      "median_price_per_m2": 23941.18
+    },
+    {
+      "colonia": "Amado Nervo",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 63,
+      "median_price_per_m2": 26416.17
+    },
+    {
+      "colonia": "Atacaxco",
+      "municipio": "La Magdalena Contreras",
+      "count": 63,
+      "median_price_per_m2": 28694.44
+    },
+    {
+      "colonia": "San Jeronimo Miacatlan",
+      "municipio": "Milpa Alta",
+      "count": 56,
+      "median_price_per_m2": 8564.32
+    },
+    {
+      "colonia": "San Pablo Oztotepec",
+      "municipio": "Milpa Alta",
+      "count": 54,
+      "median_price_per_m2": 7951.35
+    },
+    {
+      "colonia": "San Agustin Ohtenco",
+      "municipio": "Milpa Alta",
+      "count": 53,
+      "median_price_per_m2": 8675.93
+    },
+    {
+      "colonia": "San Francisco Tecoxpa",
+      "municipio": "Milpa Alta",
+      "count": 53,
+      "median_price_per_m2": 8428.57
+    },
+    {
+      "colonia": "San Salvador Cuauhtenco",
+      "municipio": "Milpa Alta",
+      "count": 53,
+      "median_price_per_m2": 9198.92
+    },
+    {
+      "colonia": "Santa Ana Tlacotenco",
+      "municipio": "Milpa Alta",
+      "count": 53,
+      "median_price_per_m2": 8940.0
+    },
+    {
+      "colonia": "Villa Milpa Alta",
+      "municipio": "Milpa Alta",
+      "count": 52,
+      "median_price_per_m2": 9124.85
+    },
+    {
+      "colonia": "Lomas de Vista Hermosa",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 49,
+      "median_price_per_m2": 22971.07
+    },
+    {
+      "colonia": "San Bartolome Xicomulco",
+      "municipio": "Milpa Alta",
+      "count": 49,
+      "median_price_per_m2": 9121.21
+    },
+    {
+      "colonia": "Loma del Padre",
+      "municipio": "Cuajimalpa de Morelos",
+      "count": 46,
+      "median_price_per_m2": 26571.17
+    },
+    {
+      "colonia": "San Antonio Tecomitl",
+      "municipio": "Milpa Alta",
+      "count": 45,
+      "median_price_per_m2": 9188.31
+    }
+  ],
+  "histogram": [
+    {
+      "bucket_max_mxn": 500000,
+      "count": 1289
+    },
+    {
+      "bucket_max_mxn": 1000000,
+      "count": 10110
+    },
+    {
+      "bucket_max_mxn": 1500000,
+      "count": 15275
+    },
+    {
+      "bucket_max_mxn": 2000000,
+      "count": 15130
+    },
+    {
+      "bucket_max_mxn": 3000000,
+      "count": 22889
+    },
+    {
+      "bucket_max_mxn": 4000000,
+      "count": 13406
+    },
+    {
+      "bucket_max_mxn": 5000000,
+      "count": 7877
+    },
+    {
+      "bucket_max_mxn": 7500000,
+      "count": 8104
+    },
+    {
+      "bucket_max_mxn": 10000000,
+      "count": 2306
+    },
+    {
+      "bucket_max_mxn": 15000000,
+      "count": 950
+    },
+    {
+      "bucket_max_mxn": null,
+      "count": 172
+    }
+  ]
+}
