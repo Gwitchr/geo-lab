@@ -1,5 +1,6 @@
 import "./style.css";
 import { loadListings, filterListings, sortListings, type Listing } from "./data";
+import { renderPriceHistogram, renderColoniaPriceChart } from "./charts";
 
 const TABLE_ROW_CAP = 300;
 
@@ -24,11 +25,13 @@ const state: {
   query: string;
   sortField: SortField;
   sortDir: "asc" | "desc";
+  activeTab: "table" | "charts";
 } = {
   all: [],
   query: "",
   sortField: "listed_date",
   sortDir: "desc",
+  activeTab: "table",
 };
 
 const app = document.querySelector<HTMLDivElement>("#app");
@@ -44,14 +47,30 @@ app.innerHTML = `
       aria-label="Filtrar propiedades"
     />
   </header>
+  <nav class="tabs" role="tablist">
+    <button class="tab-btn active" data-tab="table" role="tab" aria-selected="true">Tabla</button>
+    <button class="tab-btn" data-tab="charts" role="tab" aria-selected="false">Gráficas</button>
+  </nav>
   <main>
     <p id="status" class="status" role="status"></p>
-    <div class="table-wrap">
-      <table id="listings-table">
-        <thead><tr></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
+    <section id="panel-table" class="panel active">
+      <div class="table-wrap">
+        <table id="listings-table">
+          <thead><tr></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section id="panel-charts" class="panel">
+      <div class="chart-block">
+        <h2>Distribución de precios</h2>
+        <div id="price-histogram"></div>
+      </div>
+      <div class="chart-block">
+        <h2>Precio mediano por m2, por colonia (top 20)</h2>
+        <div id="colonia-chart"></div>
+      </div>
+    </section>
   </main>
 `;
 
@@ -59,6 +78,11 @@ const filterBox = app.querySelector<HTMLInputElement>("#filter-box")!;
 const statusEl = app.querySelector<HTMLParagraphElement>("#status")!;
 const tableHead = app.querySelector<HTMLTableRowElement>("#listings-table thead tr")!;
 const tableBody = app.querySelector<HTMLTableSectionElement>("#listings-table tbody")!;
+const tabButtons = Array.from(app.querySelectorAll<HTMLButtonElement>(".tab-btn"));
+const panels: Record<typeof state.activeTab, HTMLElement> = {
+  table: app.querySelector<HTMLElement>("#panel-table")!,
+  charts: app.querySelector<HTMLElement>("#panel-charts")!,
+};
 
 const currencyFmt = new Intl.NumberFormat("es-MX", {
   style: "currency",
@@ -138,11 +162,39 @@ function renderStatus(filtered: Listing[]): void {
   statusEl.textContent = `${filtered.length} de ${total} propiedades${shownNote}`;
 }
 
+function renderCharts(filtered: Listing[]): void {
+  if (state.activeTab !== "charts") return;
+  const histogramEl = app!.querySelector<HTMLDivElement>("#price-histogram")!;
+  const coloniaEl = app!.querySelector<HTMLDivElement>("#colonia-chart")!;
+  renderPriceHistogram(histogramEl, filtered);
+  renderColoniaPriceChart(coloniaEl, filtered);
+}
+
 function render(): void {
   const filtered = getFiltered();
   renderTableHead();
   renderTable(filtered);
   renderStatus(filtered);
+  renderCharts(filtered);
+}
+
+function switchTab(tab: typeof state.activeTab): void {
+  state.activeTab = tab;
+  for (const btn of tabButtons) {
+    const isActive = btn.dataset.tab === tab;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-selected", String(isActive));
+  }
+  for (const [name, panel] of Object.entries(panels)) {
+    panel.classList.toggle("active", name === tab);
+  }
+  // Charts are only rendered lazily when their tab becomes active, since the
+  // SVG width calc needs a laid-out (visible) container.
+  render();
+}
+
+for (const btn of tabButtons) {
+  btn.addEventListener("click", () => switchTab(btn.dataset.tab as typeof state.activeTab));
 }
 
 let filterDebounce: ReturnType<typeof setTimeout> | undefined;
