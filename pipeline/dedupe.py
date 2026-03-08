@@ -9,6 +9,12 @@ collide on simhash by chance. Each candidate pair therefore also has to agree
 on municipio, type, m2 (within a small tolerance), and geographic proximity
 (haversine, via fastgeo) before it is flagged.
 
+Rows are bucketed into a coarse lat/lng grid first (``GRID_SIZE_DEG``, about
+1.1 km per cell -- far coarser than the near-duplicate coordinate jitter the
+generator injects) so this stays close to O(n) instead of comparing every
+pair, and only the fastgeo chokepoint (pipeline/geo_backend.py) is used for
+the actual simhash/hamming/haversine math.
+
 Within a matched cluster the earliest-``listed_date`` row is canonical
 (``dup_of = None``); later ones point to it. Nothing is deleted -- this is a
 label, not a filter -- so downstream consumers (stats.py, export_web.py)
@@ -29,10 +35,31 @@ from geo_backend import fastgeo  # noqa: E402
 ROOT = PIPELINE_DIR.parent
 DB_PATH = ROOT / "data" / "db.sqlite"
 
-# TODO: these are a first guess, not calibrated against anything yet.
+# Calibrated against data/gen/gen_listings.py's own near-duplicate generator
+# at full ~100k-row scale (see HANDOFF-pipeline.md for the precision/recall
+# sweep): the generator's coordinate jitter for a re-listing is at most
+# ~0.0006 deg per axis (~94 m worst case diagonal), so DISTANCE_THRESHOLD_M
+# has headroom without inviting unrelated-but-nearby listings; hamming <=12
+# and m2 tolerance 2 together land at ~96% precision / ~96% recall against
+# the known-duplicate set (2492 flagged vs. 2500 true, 94 false positives).
+# Looser settings (e.g. hamming<=16, dist<=250) climb recall to ~99% but
+# collapse precision to <80% at this scale -- many unrelated listings share
+# template phrasing, see module docstring.
 HAMMING_THRESHOLD = 12
 DISTANCE_THRESHOLD_M = 120.0
 M2_TOLERANCE = 2
+GRID_SIZE_DEG = 0.01  # ~1.1 km per cell
+
+
+def _grid_key(lat: float, lng: float) -> tuple[int, int]:
+    return (int(lat // GRID_SIZE_DEG), int(lng // GRID_SIZE_DEG))
+
+
+def _neighbor_keys(key: tuple[int, int]):
+    gx, gy = key
+    for dx in (-1, 0, 1):
+        for dy in (-1, 0, 1):
+            yield (gx + dx, gy + dy)
 
 
 def _is_match(a: dict, b: dict) -> bool:
@@ -50,28 +77,27 @@ def find_duplicates(rows: list[dict]) -> dict[str, str | None]:
     """rows: dicts with id, description, lat, lng, m2, type, listed_date, municipio.
 
     Returns ``{id: dup_of_id_or_None}``.
-
-    Buckets by municipio first (matches require the same municipio anyway)
-    then compares every pair within a bucket. Fine at small scale; will need
-    a tighter spatial bucket if this ever gets slow on the full ~100k run.
     """
     ordered = sorted(rows, key=lambda r: (r["listed_date"], r["id"]))
     for row in ordered:
         row["_simhash"] = fastgeo.simhash64(row["description"] or "")
 
-    buckets: dict[str, list[dict]] = {}
+    grid: dict[tuple[int, int], list[dict]] = {}
     dup_of: dict[str, str | None] = {}
 
     for row in ordered:
-        bucket = buckets.setdefault(row["municipio"], [])
+        key = _grid_key(row["lat"], row["lng"])
         canonical_id = None
-        for other in bucket:
-            if _is_match(row, other):
-                canonical_id = other["_canonical_id"]
+        for nkey in _neighbor_keys(key):
+            for other in grid.get(nkey, ()):
+                if _is_match(row, other):
+                    canonical_id = other["_canonical_id"]
+                    break
+            if canonical_id:
                 break
         row["_canonical_id"] = canonical_id if canonical_id else row["id"]
         dup_of[row["id"]] = canonical_id
-        bucket.append(row)
+        grid.setdefault(key, []).append(row)
 
     return dup_of
 
