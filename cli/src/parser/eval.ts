@@ -64,10 +64,13 @@ function evalComparison(node: Extract<ExprNode, { kind: "comparison" }>): Compil
       num = node.value.value;
     } else {
       const parsed = Number(node.value.value);
-      if (node.value.value.trim() === "" || Number.isNaN(parsed)) {
-        const shown = node.value.quoted ? `"${node.value.value}"` : `'${node.value.value}'`;
+      const shown = node.value.quoted ? `"${node.value.value}"` : `'${node.value.value}'`;
+      if (node.value.value.trim() === "") {
+        throw new EvalError(`Field '${node.field}' requires a value`, node.position);
+      }
+      if (Number.isNaN(parsed)) {
         throw new EvalError(
-          `Field '${node.field}' expects a numeric value, got ${shown}`,
+          `Field '${node.field}' expected a number, got ${shown}`,
           node.position,
         );
       }
