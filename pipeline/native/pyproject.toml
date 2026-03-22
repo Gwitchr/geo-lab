@@ -1,0 +1,19 @@
+[build-system]
+requires = ["scikit-build-core>=0.10", "pybind11>=2.12"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "fastgeo"
+version = "0.1.0"
+description = "geo-lab C++17 spatial hot path (point-in-polygon, batch assignment, haversine, simhash) via pybind11"
+requires-python = ">=3.11"
+
+[tool.scikit-build]
+# No wrapper Python package: CMakeLists.txt installs the compiled
+# fastgeo.*.so straight into the wheel root, so `import fastgeo` resolves
+# to the extension module directly.
+wheel.packages = []
+build-dir = "build/{wheel_tag}"
+
+[tool.scikit-build.cmake.define]
+CMAKE_BUILD_TYPE = "Release"
