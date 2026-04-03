@@ -68,6 +68,9 @@ function evalComparison(node: Extract<ExprNode, { kind: "comparison" }>): Compil
       if (node.value.value.trim() === "") {
         throw new EvalError(`Field '${node.field}' requires a value`, node.position);
       }
+      if (node.value.value.length > 32) {
+        throw new EvalError(`Field '${node.field}' value is too long`, node.position);
+      }
       if (Number.isNaN(parsed)) {
         throw new EvalError(
           `Field '${node.field}' expected a number, got ${shown}`,
