@@ -1,6 +1,7 @@
 import "./style.css";
 import { loadListings, filterListings, sortListings, type Listing } from "./data";
 import { renderPriceHistogram, renderColoniaPriceChart } from "./charts";
+import { initMap } from "./map";
 
 const TABLE_ROW_CAP = 300;
 
@@ -25,7 +26,7 @@ const state: {
   query: string;
   sortField: SortField;
   sortDir: "asc" | "desc";
-  activeTab: "table" | "charts";
+  activeTab: "table" | "charts" | "map";
 } = {
   all: [],
   query: "",
@@ -50,6 +51,7 @@ app.innerHTML = `
   <nav class="tabs" role="tablist">
     <button class="tab-btn active" data-tab="table" role="tab" aria-selected="true">Tabla</button>
     <button class="tab-btn" data-tab="charts" role="tab" aria-selected="false">Gráficas</button>
+    <button class="tab-btn" data-tab="map" role="tab" aria-selected="false">Mapa</button>
   </nav>
   <main>
     <p id="status" class="status" role="status"></p>
@@ -71,6 +73,9 @@ app.innerHTML = `
         <div id="colonia-chart"></div>
       </div>
     </section>
+    <section id="panel-map" class="panel">
+      <div id="map" class="map"></div>
+    </section>
   </main>
 `;
 
@@ -82,6 +87,7 @@ const tabButtons = Array.from(app.querySelectorAll<HTMLButtonElement>(".tab-btn"
 const panels: Record<typeof state.activeTab, HTMLElement> = {
   table: app.querySelector<HTMLElement>("#panel-table")!,
   charts: app.querySelector<HTMLElement>("#panel-charts")!,
+  map: app.querySelector<HTMLElement>("#panel-map")!,
 };
 
 const currencyFmt = new Intl.NumberFormat("es-MX", {
@@ -170,12 +176,19 @@ function renderCharts(filtered: Listing[]): void {
   renderColoniaPriceChart(coloniaEl, filtered);
 }
 
+function renderMap(filtered: Listing[]): void {
+  if (state.activeTab !== "map") return;
+  const mapEl = app!.querySelector<HTMLDivElement>("#map")!;
+  initMap(mapEl, filtered);
+}
+
 function render(): void {
   const filtered = getFiltered();
   renderTableHead();
   renderTable(filtered);
   renderStatus(filtered);
   renderCharts(filtered);
+  renderMap(filtered);
 }
 
 function switchTab(tab: typeof state.activeTab): void {
@@ -188,8 +201,8 @@ function switchTab(tab: typeof state.activeTab): void {
   for (const [name, panel] of Object.entries(panels)) {
     panel.classList.toggle("active", name === tab);
   }
-  // Charts are only rendered lazily when their tab becomes active, since the
-  // SVG width calc needs a laid-out (visible) container.
+  // Charts/map are only rendered lazily when their tab becomes active, since
+  // Leaflet and the SVG width calc both need a laid-out (visible) container.
   render();
 }
 
