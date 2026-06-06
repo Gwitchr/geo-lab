@@ -67,7 +67,7 @@ function evalComparison(node: Extract<ExprNode, { kind: "comparison" }>): Compil
       if (node.value.value.trim() === "" || Number.isNaN(parsed)) {
         const shown = node.value.quoted ? `"${node.value.value}"` : `'${node.value.value}'`;
         throw new EvalError(
-          `Field '${node.field}' expects a numeric value, got ${shown}`,
+          `Field '${node.field}' expects a numeric value for '${node.op}', got ${shown}`,
           node.position,
         );
       }
