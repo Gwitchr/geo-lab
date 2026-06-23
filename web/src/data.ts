@@ -35,17 +35,21 @@ type NumericFieldKey = keyof typeof NUMERIC_FIELDS;
 function normalize(value: string): string {
   return value
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim();
 }
 
 /**
  * Loads the listings JSON slice exported by the pipeline (web/public/listings.json
- * in production; overridden in tests). Throws if the response is not ok or
- * the body is not an array.
+ * in production; overridden in tests). Default URL is built from Vite's
+ * configured BASE_URL so it still resolves once GitHub Pages serves this app
+ * from a "/geo-lab/" subpath instead of domain root. Throws if the response
+ * is not ok or the body is not an array.
  */
-export async function loadListings(url = "/listings.json"): Promise<Listing[]> {
+export async function loadListings(
+  url = `${import.meta.env.BASE_URL}listings.json`,
+): Promise<Listing[]> {
   const res = await fetch(url);
   if (!res.ok) {
     throw new Error(`failed to load listings from ${url}: ${res.status} ${res.statusText}`);
