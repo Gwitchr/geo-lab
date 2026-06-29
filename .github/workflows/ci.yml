@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  web-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+
+  cli-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: cli/package-lock.json
+      - run: npm ci
+      - run: npx tsc -p tsconfig.json --noEmit
+      - run: npx tsc -p tsconfig.test.json --noEmit
+      - run: npm test
+      - run: npm run build
+
+  pipeline-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - name: Run pipeline test suite
+        working-directory: pipeline
+        run: python3 -m pytest -q
+      # fastgeo is not built in this job (that's native-build's responsibility);
+      # test_parity.py uses pytest.importorskip and skips itself cleanly here.
+
+  native-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pybind11 cmake ninja scikit-build-core pytest numpy
+      - name: Configure + build + install fastgeo wheel
+        run: pip install ./pipeline/native
+      - name: Run parity suite against the compiled module
+        working-directory: pipeline
+        run: python3 -m pytest tests/test_parity.py -v
