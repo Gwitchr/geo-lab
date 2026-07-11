@@ -30,7 +30,7 @@ const USAGE = `geoq - query the geo-lab listings database
 Usage:
   geoq query [expr] [--db path] [--limit N] [--columns a,b,c] [--json]
   geoq stats [expr] [--db path] [--by field] [--limit N] [--json]
-  geoq export [expr] [--out path] [--db path] [--format json|csv] [--columns a,b,c]
+  geoq export [expr] [--out path] [--db path] [--format json|csv|geojson] [--columns a,b,c]
 
 Options:
   --db <path>       Path to the sqlite database (default: ${DEFAULT_DB_PATH}, resolved from the current directory)
@@ -38,7 +38,7 @@ Options:
   --columns <list>  Comma-separated column subset (query/export)
   --by <field>      Group stats by a filter-language field (price|m2|bedrooms|type|colonia|municipio|listed)
   --out <path>      export: write to this file instead of stdout; format inferred from extension
-  --format <fmt>    export: "json" or "csv" (overrides extension inference)
+  --format <fmt>    export: "json", "csv", or "geo-json" (overrides extension inference)
   --json            query/stats: print machine-readable JSON instead of a text table
   --help            Show this help
 
@@ -187,8 +187,13 @@ function runExportCommand(
   const filter = positional[0];
   const outPath = optionString(options, "out");
   const formatOpt = optionString(options, "format");
-  if (formatOpt !== undefined && formatOpt !== "json" && formatOpt !== "csv") {
-    throw new Error(`Option --format expects 'json' or 'csv', got '${formatOpt}'`);
+  if (
+    formatOpt !== undefined &&
+    formatOpt !== "json" &&
+    formatOpt !== "csv" &&
+    formatOpt !== "geojson"
+  ) {
+    throw new Error(`Option --format expects 'json', 'csv', or 'geojson', got '${formatOpt}'`);
   }
   const columns = optionString(options, "columns");
 
