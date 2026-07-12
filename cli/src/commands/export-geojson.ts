@@ -48,7 +48,14 @@ export function runExportGeoJson(
   const sql = `SELECT id, title, price_mxn, m2, bedrooms, type, colonia, municipio, lat, lng FROM listings${whereSql} ORDER BY listed_date DESC`;
   const rows = db.prepare(sql).all(...params) as GeoRow[];
 
-  const features: GeoJsonFeature[] = rows.map((row) => ({
+  // Skip rows with a missing/invalid coordinate instead of emitting a
+  // broken Point -- shouldn't happen for real rows (lat/lng are NOT NULL in
+  // the schema) but --filter can select a bad row if one ever slips in.
+  const withCoords = rows.filter(
+    (row) => Number.isFinite(row.lat) && Number.isFinite(row.lng),
+  );
+
+  const features: GeoJsonFeature[] = withCoords.map((row) => ({
     type: "Feature",
     geometry: { type: "Point", coordinates: [row.lng, row.lat] },
     properties: {
