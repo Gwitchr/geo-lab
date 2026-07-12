@@ -38,7 +38,7 @@ Options:
   --columns <list>  Comma-separated column subset (query/export)
   --by <field>      Group stats by a filter-language field (price|m2|bedrooms|type|colonia|municipio|listed)
   --out <path>      export: write to this file instead of stdout; format inferred from extension
-  --format <fmt>    export: "json", "csv", or "geo-json" (overrides extension inference)
+  --format <fmt>    export: "json", "csv", or "geojson" (overrides extension inference)
   --json            query/stats: print machine-readable JSON instead of a text table
   --help            Show this help
 
