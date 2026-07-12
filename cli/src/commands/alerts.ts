@@ -8,6 +8,7 @@
 // just the newest listed_date + id seen last run) -- not started.
 // TODO: decide the report format (stdout table, like `query`? webhook?).
 // Not wired into cli.ts yet.
+// Next: figure out the "new since last check" cursor before anything else.
 
 export interface Alert {
   name: string;
