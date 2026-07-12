@@ -26,3 +26,6 @@ export function createAlert(_name: string, _filter: string): Alert {
 export function runAlertsCheck(_store: AlertsStore): never {
   throw new Error("not implemented");
 }
+
+// Storage sketch, not wired up: one JSON file, alerts keyed by name.
+export const ALERTS_FILE_NAME = "alerts.json";
