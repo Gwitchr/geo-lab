@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "agents-md": {
+      "source": "gwitchr/skills",
+      "sourceType": "github",
+      "skillPath": "agents-md/SKILL.md",
+      "computedHash": "e963ae811ba6883cab2e3b31dc04b17427f48ab10274f9cdc0ff2830837fee15"
+    },
+    "caveman": {
+      "source": "juliusbrussee/caveman",
+      "sourceType": "github",
+      "skillPath": "skills/caveman/SKILL.md",
+      "computedHash": "d18cdf73a5f5c496d681a43a6846336b110223bdffa6817b8992529c57f1a815"
+    },
+    "components-hierarchy": {
+      "source": "gwitchr/skills",
+      "sourceType": "github",
+      "skillPath": "components-hierarchy/SKILL.md",
+      "computedHash": "41496d7829ef32bca97870ee541bdbed14a5f256b43e7460f36cf7080a775237"
+    },
+    "docs-vault": {
+      "source": "gwitchr/skills",
+      "sourceType": "github",
+      "skillPath": "docs-vault/SKILL.md",
+      "computedHash": "d447b53073c67e046f86590a093e371ed17747ddffd473e6f0850f9e7a60d4d0"
+    },
+    "pedantic-react": {
+      "source": "gwitchr/skills",
+      "sourceType": "github",
+      "skillPath": "pedantic-react/SKILL.md",
+      "computedHash": "f89d856a9342d834050f6067891ee7893a75bd680a90a6d638b58ba4adaf4b5f"
+    }
+  }
+}
