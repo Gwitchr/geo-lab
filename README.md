@@ -130,6 +130,12 @@ are in [`docs/dev-notes.md`](./docs/dev-notes.md).
 `geoq`'s query language (`price<2500000 and colonia:roma or type=terreno`) is
 documented in [`docs/filter-language.md`](./docs/filter-language.md).
 
+## Development
+
+Layout, component internals, the contracts between pieces (the fastgeo import
+chokepoint, data shapes, db paths), and the invariants to keep when changing
+things are in [`docs/development.md`](./docs/development.md).
+
 ## License
 
 MIT — see [`LICENSE`](./LICENSE).
