@@ -36,7 +36,7 @@ describe("runExportGeoJson against the fixture db", () => {
   });
 
   it("properties carry the listing's non-geometry fields", () => {
-    const collection = runExportGeoJson(db, { filter: "colonia:roma norte" });
+    const collection = runExportGeoJson(db, { filter: 'colonia:"roma norte"' });
     const feature = collection.features[0]!;
     expect(feature.properties).toMatchObject({
       id: expect.any(String),
