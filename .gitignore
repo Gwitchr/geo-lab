@@ -14,3 +14,7 @@ __pycache__/
 
 # OS cruft
 .DS_Store
+
+# local agent tooling, never published
+.agents/
+.claude/

@@ -132,9 +132,19 @@ documented in [`docs/filter-language.md`](./docs/filter-language.md).
 
 ## Development
 
-Layout, component internals, the contracts between pieces (the fastgeo import
-chokepoint, data shapes, db paths), and the invariants to keep when changing
-things are in [`docs/development.md`](./docs/development.md).
+[`docs/`](./docs/README.md) is an Obsidian vault (open the folder as a vault; `.obsidian/`
+is committed). Eight top-level domain docs, read in order:
+[PRODUCT](./docs/PRODUCT.md) → [RUNTIME](./docs/RUNTIME.md) →
+[ARCHITECTURE](./docs/ARCHITECTURE.md) → [DATA](./docs/DATA.md) → [AUTH](./docs/AUTH.md) →
+[ENGINEERING](./docs/ENGINEERING.md) → [TESTING](./docs/TESTING.md) →
+[DESIGN](./docs/DESIGN.md). Deeper specs hang off each under `docs/architecture/`,
+`docs/conventions/`, `docs/workflows/`, `docs/quality/`, `docs/decisions/`, and
+`docs/upgrades/`.
+
+The contracts between the pieces (the fastgeo import chokepoint, data shapes, db paths) are
+in [`docs/architecture/contracts.md`](./docs/architecture/contracts.md); the invariants to
+keep are in [`docs/quality/data-integrity.md`](./docs/quality/data-integrity.md).
+[`AGENTS.md`](./AGENTS.md) is the entry point for AI agents.
 
 ## License
 

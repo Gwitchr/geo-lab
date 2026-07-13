@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "type": "file", "path": "Home.md", "title": "Home" },
+    { "type": "file", "path": "PRODUCT.md", "title": "PRODUCT" },
+    { "type": "file", "path": "ARCHITECTURE.md", "title": "ARCHITECTURE" },
+    { "type": "file", "path": "DESIGN.md", "title": "DESIGN" },
+    { "type": "file", "path": "upgrades/immediate.md", "title": "Immediate Upgrades" }
+  ]
+}

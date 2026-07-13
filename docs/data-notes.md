@@ -1,3 +1,8 @@
+---
+aliases: [Data Notes, Provenance]
+tags: [architecture]
+---
+
 # Data notes
 
 Sources, retrieval dates, and licenses for everything under `data/`, plus how
@@ -136,3 +141,11 @@ CONAPO-sourced files described above. If a future re-run of the fetch needs
 to fall back to a placeholder, it must not carry the `agebs_cdmx.geojson` /
 `marginacion_cdmx.csv` filenames without a clear placeholder label, per
 BRIEF.md.
+
+---
+
+## See also
+
+- ↑ [[DATA]] · [[PRODUCT]]
+- [[pipeline]] · [[data-integrity]] · [[add-a-region]] · [[regenerate-data]]
+- ↩ [[Home]]

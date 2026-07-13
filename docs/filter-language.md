@@ -1,3 +1,8 @@
+---
+aliases: [Filter Language, geoq grammar]
+tags: [architecture]
+---
+
 # geoq filter language
 
 `geoq query`, `geoq stats`, and `geoq export` all take an optional filter
@@ -150,3 +155,12 @@ CLI catches all three and prints `Error: <message> (position <n>)` with exit
 code 1; nothing is ever string-interpolated into the SQL text itself, so
 malformed or adversarial filter input cannot inject SQL — values always ride
 along as bound `?` parameters.
+
+---
+
+## See also
+
+- ↑ [[ARCHITECTURE]] · [[PRODUCT]]
+- [[query-engine]] — how the lexer/parser/eval are actually built
+- [[add-a-filter-field]] · [[security]] · [[TESTING]]
+- ↩ [[Home]]

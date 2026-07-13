@@ -1,3 +1,8 @@
+---
+aliases: [Dev Notes, Running Log]
+tags: [convention]
+---
+
 # Dev notes
 
 Running notes to myself as I build this out — decisions, numbers, and the
@@ -577,3 +582,12 @@ to have some silent dependency on my own machine state otherwise.
 - Haven't seen an actual Pages deploy either — the `/geo-lab/` base path fix
   above was verified by inspecting the built bundle's asset URLs, not by a
   real deploy. Will know for sure once CI runs on push.
+
+---
+
+## See also
+
+- ↑ [[ENGINEERING]] · [[ARCHITECTURE]]
+- Distilled into: [[Decisions Index]] · [[performance]] · [[data-integrity]] · [[immediate]]
+- [[pipeline]] · [[fastgeo]] · [[query-engine]] · [[web-app]] · [[contracts]]
+- ↩ [[Home]]
